@@ -1,0 +1,4 @@
+@echo off
+NET STOP "MYSQL"
+NET START "MYSQL"
+exit
